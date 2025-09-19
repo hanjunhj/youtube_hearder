@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YouTube Header Demo</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <!-- Left navigation -->
+      <nav class="left-section" aria-label="Main navigation">
+        <button class="menu-button" aria-label="Open menu">
+          <img src="./icons/hamburger-menu.svg" alt="Menu" />
+        </button>
+        <a href="#" class="logo-link">
+          <img src="./icons/youtube-logo.svg" alt="YouTube Logo" class="youtube-logo" />
+        </a>
+      </nav>
+
+      <!-- Search form -->
+      <form class="middle-section" role="search" aria-label="Site search">
+        <label for="search-box" class="sr-only">Search</label>
+        <input id="search-box" type="text" class="search-bar" placeholder="Search" />
+        <button type="submit" class="search-button" aria-label="Search">
+          <img src="./icons/search.svg" alt="Search" />
+        </button>
+        <button type="button" class="voice-button" aria-label="Voice search">
+          <img src="./icons/voice-search-icon.svg" alt="Voice Search" />
+        </button>
+      </form>
+
+      <!-- Right navigation -->
+      <nav class="right-section" aria-label="User tools">
+        <button class="icon-button" aria-label="Upload">
+          <img src="./icons/upload.svg" alt="Upload" />
+        </button>
+        <button class="icon-button" aria-label="Apps">
+          <img src="./icons/youtube-apps.svg" alt="Apps" />
+        </button>
+        <button class="icon-button" aria-label="Notifications">
+          <img src="./icons/notifications.svg" alt="Notifications" />
+        </button>
+        <a href="#" class="profile-link" aria-label="My Channel">
+          <img src="./icons/img_avatar_female.png" alt="Profile picture" class="profile-pic" />
+        </a>
+      </nav>
+    </header>
+  </body>
+</html>
